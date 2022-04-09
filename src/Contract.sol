@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity 0.8.10;
+pragma solidity 0.8.7;
 
-contract Contract {}
+import { Forwarder } from "./lib/gsn/forwarder/Forwarder.sol";
+
+contract Contract is Forwarder {}
